@@ -1,5 +1,5 @@
 # MojiPy
-Funny telegram Emoji to python and python to Emoji interpreter :)
+Funny Emoji to python and python to Emoji interpreter :)
 It converts most of python keywords and many functions callings to specified emojies.
 Written by RedAntsSec(Github),RedAntsS3c(Telegram).
 
