@@ -80,8 +80,10 @@ def dinterpret(string):
     if x == 0:
         for keychar, valchar in keys.items():
             string = string.replace(valchar,keychar)
+        string = "Your new funny code: \n" + string
         return string
     else:
+        result = "Your new funny code: \n" + result
         return result
 
 # Converts emojies to python keywords
