@@ -6,7 +6,7 @@ It converts most of python keywords and many functions callings to specified emo
 Written by RedAntsSec(Github),RedAntsS3c(Telegram).
 
 You can use "Mojinterpreter.py" as a module in your programs for making them funny for public.
-We already have a telegram bot that can do this operation and its source is in "MojiPy.py".
+We already have a telegram bot that can do this operation and its source is in "MojiPy.py". Its currently username in telegram is: @MojiPy_bot
 
 # How to use ?
   There are two functions in this program. dinterpret and interpret. The first one is for converting all of the given python code keywords to emojies.
