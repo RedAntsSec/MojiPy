@@ -40,7 +40,10 @@ def rextester(code):
 @app.on_message((filters.group | filters.private) & filters.regex("^[Dd]moji$") , group = 1)
 def Moji(client , message) :
 	textl = Mojinterpreter.dinterpret(message.reply_to_message.text)
-	app.send_message(message.chat.id , textl)
+	if textl == "NotMoji":
+            app.send_message(message.chat.id , "There is not any understandable character in the given code!")
+	else:
+		app.send_message(message.chat.id , textl)
 
 #moji to python
 @app.on_message((filters.group | filters.private) & filters.regex("^[Mm]oji$") , group = 1)
