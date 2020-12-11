@@ -47,7 +47,7 @@ def Moji(client , message) :
 def Moji(client , message) :
 	textl = Mojinterpreter.interpret(message.reply_to_message.text)
         if textl == "NotMoji":
-            app.send_message(message.chat.id , "There is not any moji character in the given code!")
+            app.send_message(message.chat.id , "There is not any understandable character in the given code!")
         else:
             result = rextester(textl)
 	    app.send_message(message.chat.id , result)
